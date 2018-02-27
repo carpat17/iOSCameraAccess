@@ -67,15 +67,17 @@ using namespace cv::xfeatures2d;
     // Styles
     Scalar blueColor = Scalar(210, 139, 38, 255);
     Scalar pinkColor = Scalar(130, 54, 211, 255);
-    int thickness = 2;
+    Scalar redColor = Scalar(0, 0, 255, 255);
+    
+    int thickness = 3;
     int fontFace = FONT_HERSHEY_SIMPLEX;
     
     // FPS start
     NSDate *processImageDate = [NSDate date];
     
     // Defines roi
-    float widthPercent = 0.2;
-    float heightPercent = 0.1;
+    float widthPercent = 0.5;
+    float heightPercent = 0.25;
     cv::Point center(rawImageBGRA.cols/2, rawImageBGRA.rows/2);
     cv::Rect roi(rawImageBGRA.cols/2 * (1-widthPercent/2),
                  rawImageBGRA.rows/2 * (1-heightPercent/2),
@@ -83,7 +85,7 @@ using namespace cv::xfeatures2d;
                  rawImageBGRA.rows/2 * heightPercent );
     
     // Draws roi
-    rectangle(rawImageBGRA, roi, pinkColor, 3);
+    rectangle(rawImageBGRA, roi, redColor, 3);
     
     // Copies input image in roi
     cv::Mat imageRoiBGRA = rawImageBGRA( roi );

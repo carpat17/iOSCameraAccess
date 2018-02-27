@@ -315,14 +315,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TNK35Y7NJQ;
+				DEVELOPMENT_TEAM = 87WX3LQG8B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSCameraAccess",
 				);
 				INFOPLIST_FILE = iOSCameraAccess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.iOSCameraAccess;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.iOSCameraAccess2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,14 +333,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TNK35Y7NJQ;
+				DEVELOPMENT_TEAM = 87WX3LQG8B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSCameraAccess",
 				);
 				INFOPLIST_FILE = iOSCameraAccess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.iOSCameraAccess;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.iOSCameraAccess2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
